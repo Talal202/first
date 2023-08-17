@@ -1,0 +1,404 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.d1{
+    height: 60px;
+}
+/*(d2)=>لرسمه الدائره*/
+.d2{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    left: 70px;
+    border-color: darkgray;
+    border-width: 6px;
+    border-style: solid;
+    border-radius: 30px;
+    margin-top: 2.5px;
+}
+/*(d1::before)=>لرسمه الخط الموجود بجانب الدائره*/
+.d1::before{
+    content: "";
+    background-color: black;
+    width: 5px;
+    height: 60px;
+    position: absolute;
+    left: 60px;
+}
+.u1{
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    right: 50px;
+    top: 8px;
+    list-style-type: none;
+    direction: rtl;
+}
+.l1{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin-top: 10px;
+}
+.l2{
+    width: 15px;
+    height: 2px;
+    background-color: black;
+    margin-top: 5px;
+}
+.l3{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin-top: 5px;
+}
+/*(d3)=>الذي يحتوي علي hello there.........*/
+.d3{
+    background-color:rgb(201, 171, 171);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/*(h1)=>hello there*/
+.h1{
+    color: rgb(196, 126, 126);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*(h2)=>1200x450*/
+.h2{
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgb(196, 126, 126);
+}
+.p1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+/*(d4)=>parent*/
+.d4{
+    margin-top: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.d5{
+    width: 350px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.d6{
+    width: 350px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.d7{
+    width: 350px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 80px;
+}
+.d5:hover{
+    background-color: rgb(201, 171, 171);
+}
+.d6:hover{
+    background-color: rgb(201, 171, 171);
+}
+.d7:hover{
+    background-color: rgb(201, 171, 171);
+}
+/*(d8)=>servecs*/
+.d8{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+}
+.dz{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+}
+.h3{
+    font-size: 100px;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p2{
+    font-size: 20px;
+    position: relative;
+    bottom: 35px;
+}
+/*شكل المربعين ال فوق بعض*/
+.d9{
+    width: 80px;
+    height: 295px;
+    background-color:rgb(94, 64, 109);
+    position: absolute;
+    right: 70px;
+    animation: 3s d9 infinite;
+}
+.d10{
+    width: 200px;
+    height: 236px;
+    background-color: rgb(201, 171, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 100px;
+    top: 1190px;
+    color: rgb(196, 126, 126);
+    font-family: Arial, Helvetica, sans-serif;
+    animation: 3s d10 infinite;
+}
+@keyframes d10{
+    0%{background-color: rgb(196, 126, 126);}
+    50%{background-color: rgb(94, 64, 109);}
+    100%{background-color: rgb(196, 126, 126);}
+}
+@keyframes d9{
+    0%{background-color: rgb(94, 64, 109);}
+    50%{background-color: rgb(196, 126, 126);}
+    100%{background-color: rgb(94, 64, 109);}
+}
+/*نبدأ في الكلام ال جنب المربعين*/
+/*(d11)=>Parent*/
+.d11{
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.d12{
+    width:300px;
+    height:145px;
+    margin-left: 80px;
+}
+.d13{
+    width:300px;
+    height:145px;
+    margin-top: 5px;
+    margin-left: 80px;
+}
+.d14{
+    width:300px;
+    height:145px;
+}
+.d15{
+    width:300px;
+    height:145px;
+    margin-top: 5px;
+}
+.hh{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.d16{
+    height: 430px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.d17{
+    background-color: rgb(238, 198, 198);
+    height: 420px;
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-color: rgb(238, 198, 198);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    outline: none;
+}
+.h500{
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(209, 147, 147);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.d18{
+    background-color: white;
+    position: relative;
+    top: 135px;
+    width: 370px;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: rgb(238, 198, 198);
+    border-width: 2px;
+    border-style: solid;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.d19{
+    background-color: rgb(94, 64, 109);
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    left: 250px;
+    animation: 3s d9 infinite;
+}
+.d20{
+    background-color: rgb(94, 64, 109);
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 310px;
+    top: 2540px;
+    animation: 3s d9 infinite;
+}
+.d21{
+    background-color: red;
+    width: 220px;
+    height: 200px;
+    position: absolute;
+    left: 150px;
+    top: 2420px;
+    background-color: rgb(196, 126, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(238, 198, 198);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    animation: 3s d10 infinite;
+}
+.d22{
+    width: 600px;
+    height: 230px;
+    position: relative;
+    left: 700px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pppp{
+    color:rgb(173, 118, 118);
+}
+.d23{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ddd{
+    background-color: rgb(238, 198, 198);
+    margin-top: 30px;
+}
+.d24{
+    height: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+@media (max-width:720px)
+{
+    .d4{
+        margin-top: 50px;
+        margin-left: 30px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+    }
+    .d5{
+        position: relative;
+        right: 80px;
+    }
+    .d8{
+        height: 350px;
+    }
+    .d11{
+        height: 710px;
+    }
+    .d14{
+        margin-left: 80px;
+        margin-top: 5px;
+        padding-top: 10px;
+    }
+    .d15{
+        margin-left: 80px;
+        margin-top: 5px;
+        padding-top: 10px;
+    }
+    .d13{
+        margin-top: 5px;
+        padding-top: 10px;
+    }
+    .d10{
+        top:2100px;
+    }
+    .d9{
+        top: 2070px;
+    }
+    .d16{
+        margin-top: 500px;
+        margin-left: 15px;
+        height: 1500px;
+        flex-direction: column;
+    }
+    .d17{
+        width: 350px;
+    }
+    .d18{
+        width: 320px;
+    }
+    .dz{
+        position: absolute;
+        top: 2350px;
+        left: 15px;
+    }
+    .d20{
+        top: 4670px;
+        left: 190px;
+    }
+    .d19{
+        left: 130px;
+    }
+    .d21{
+        top: 4540px;
+        left: 60px;
+        width: 200px;
+        height: 200px;
+    }
+    .d22{
+        width: 410px;
+        height: 230px;
+        position: relative;
+        left: 10px;
+        top: 300px;
+    }
+    .ddd{
+        margin-top: 500px;
+    }
+    .d23{
+        width: 350px;
+        position: relative;
+        left: 35px;
+    }
+}
